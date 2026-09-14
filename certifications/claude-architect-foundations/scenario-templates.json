@@ -1,0 +1,15 @@
+[
+  {
+    "id": "scenario-placeholder-general",
+    "title": "General cross-domain scenario (placeholder)",
+    "description": "PLACEHOLDER: the PRD specifies that the scenario planner should create or select 4-6 coherent scenario contexts per exam but does not provide concrete scenario templates for CCA-F. This placeholder must be replaced with authored scenario templates (e.g. a specific customer-support agent build-out, a multi-tool research assistant, a code-review agent) before the scenario planner (Phase 4) is implemented.",
+    "applicableDomainKeys": [
+      "agentic-architecture-orchestration",
+      "tool-design-mcp-integration",
+      "claude-code-configuration-workflows",
+      "prompt-engineering-structured-output",
+      "context-management-reliability"
+    ],
+    "isPlaceholder": true
+  }
+]

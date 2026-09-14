@@ -1,0 +1,14 @@
+{
+  "slug": "test-fixture-cert",
+  "name": "Test Fixture Certification",
+  "version": "1.0.0",
+  "status": "active",
+  "examName": "Test Fixture Exam",
+  "totalQuestions": 4,
+  "durationMinutes": 30,
+  "passingScore": 720,
+  "scoreScale": { "min": 100, "max": 1000 },
+  "questionTypes": ["single_choice", "multiple_response"],
+  "delivery": "Test harness only",
+  "sourceDisclaimer": "This is a synthetic fixture pack used only for automated tests."
+}

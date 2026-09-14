@@ -1,0 +1,27 @@
+[
+  {
+    "term": "MCP",
+    "definition": "PLACEHOLDER: named in the source material (Model Context Protocol) as a topic covered by Claude Code training, but no authoritative definition text was provided in the PRD. Replace with the official definition before using this entry to ground question generation.",
+    "aliases": ["Model Context Protocol"]
+  },
+  {
+    "term": "CLAUDE.md",
+    "definition": "PLACEHOLDER: named in the source material as a Claude Code configuration concept. Replace with the official definition before using this entry to ground question generation.",
+    "aliases": []
+  },
+  {
+    "term": "Agent loop",
+    "definition": "PLACEHOLDER: named in the source material as a Claude Code training topic. Replace with the official definition before using this entry to ground question generation.",
+    "aliases": ["agentic loop"]
+  },
+  {
+    "term": "Subagent",
+    "definition": "PLACEHOLDER: named in the source material as a Claude Code training topic. Replace with the official definition before using this entry to ground question generation.",
+    "aliases": ["sub-agent"]
+  },
+  {
+    "term": "Plugin",
+    "definition": "PLACEHOLDER: named in the source material as a Claude Code training topic. Replace with the official definition before using this entry to ground question generation.",
+    "aliases": []
+  }
+]

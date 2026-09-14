@@ -1,0 +1,9 @@
+[
+  {
+    "id": "scenario-1",
+    "title": "Fixture Scenario",
+    "description": "A placeholder scenario template for tests.",
+    "applicableDomainKeys": ["domain-a"],
+    "isPlaceholder": true
+  }
+]

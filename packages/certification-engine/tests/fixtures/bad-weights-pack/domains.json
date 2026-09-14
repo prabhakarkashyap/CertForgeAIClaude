@@ -1,0 +1,22 @@
+[
+  {
+    "key": "domain-a",
+    "name": "Domain A",
+    "description": "First test domain.",
+    "weightPercent": 50,
+    "targetQuestionCount": 2,
+    "minQuestionCount": 2,
+    "maxQuestionCount": 3,
+    "order": 0
+  },
+  {
+    "key": "domain-b",
+    "name": "Domain B",
+    "description": "Second test domain.",
+    "weightPercent": 40,
+    "targetQuestionCount": 2,
+    "minQuestionCount": 1,
+    "maxQuestionCount": 2,
+    "order": 1
+  }
+]

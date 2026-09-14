@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Claude Certified Architect – Foundations",
+    "source": "Anthropic Partner Academy certification page",
+    "accessedDate": "2026-09-14",
+    "note": "Baseline source: 60 questions, 120 minutes, multiple-choice/multiple-response format, passing score 720 (scaled 100-1,000), Pearson/online delivery, and domain weights 27/18/20/20/15."
+  },
+  {
+    "title": "Claude Code: Foundations",
+    "source": "Anthropic",
+    "accessedDate": "2026-07-01",
+    "note": "Used only as contextual confirmation that Claude Code training covers the agent loop, CLAUDE.md, context management, MCP, plugins and subagents. Not a source of objective-level detail."
+  }
+]

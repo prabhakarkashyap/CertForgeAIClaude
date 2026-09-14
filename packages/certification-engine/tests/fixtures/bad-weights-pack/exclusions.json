@@ -1,0 +1,4 @@
+{
+  "scopeGuardrail": "Fixture-only scope guardrail statement.",
+  "excludedTopics": ["unrelated-topic"]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "domainKey": "agentic-architecture-orchestration",
+    "code": "AAO.0",
+    "title": "Agentic Architecture & Orchestration – general objective (placeholder)",
+    "description": "PLACEHOLDER: the source PRD verifies this domain's name and 27% weight from the Anthropic Partner Academy certification page but does not enumerate sub-objectives. This placeholder must be replaced with objective-level detail from the official exam guide or authorized preparation material before question generation relies on it for anything beyond domain-level tagging.",
+    "isPlaceholder": true,
+    "order": 0
+  },
+  {
+    "domainKey": "tool-design-mcp-integration",
+    "code": "TDM.0",
+    "title": "Tool Design & MCP Integration – general objective (placeholder)",
+    "description": "PLACEHOLDER: the source PRD verifies this domain's name and 18% weight from the Anthropic Partner Academy certification page but does not enumerate sub-objectives. This placeholder must be replaced with objective-level detail from the official exam guide or authorized preparation material before question generation relies on it for anything beyond domain-level tagging.",
+    "isPlaceholder": true,
+    "order": 0
+  },
+  {
+    "domainKey": "claude-code-configuration-workflows",
+    "code": "CCW.0",
+    "title": "Claude Code Configuration & Workflows – general objective (placeholder)",
+    "description": "PLACEHOLDER: the source PRD verifies this domain's name and 20% weight from the Anthropic Partner Academy certification page but does not enumerate sub-objectives. This placeholder must be replaced with objective-level detail from the official exam guide or authorized preparation material before question generation relies on it for anything beyond domain-level tagging.",
+    "isPlaceholder": true,
+    "order": 0
+  },
+  {
+    "domainKey": "prompt-engineering-structured-output",
+    "code": "PES.0",
+    "title": "Prompt Engineering & Structured Output – general objective (placeholder)",
+    "description": "PLACEHOLDER: the source PRD verifies this domain's name and 20% weight from the Anthropic Partner Academy certification page but does not enumerate sub-objectives. This placeholder must be replaced with objective-level detail from the official exam guide or authorized preparation material before question generation relies on it for anything beyond domain-level tagging.",
+    "isPlaceholder": true,
+    "order": 0
+  },
+  {
+    "domainKey": "context-management-reliability",
+    "code": "CMR.0",
+    "title": "Context Management & Reliability – general objective (placeholder)",
+    "description": "PLACEHOLDER: the source PRD verifies this domain's name and 15% weight from the Anthropic Partner Academy certification page but does not enumerate sub-objectives. This placeholder must be replaced with objective-level detail from the official exam guide or authorized preparation material before question generation relies on it for anything beyond domain-level tagging.",
+    "isPlaceholder": true,
+    "order": 0
+  }
+]

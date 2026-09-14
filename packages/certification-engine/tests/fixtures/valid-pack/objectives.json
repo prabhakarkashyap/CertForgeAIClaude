@@ -1,0 +1,18 @@
+[
+  {
+    "domainKey": "domain-a",
+    "code": "A.1",
+    "title": "Objective A1",
+    "description": "Placeholder objective for domain A.",
+    "isPlaceholder": true,
+    "order": 0
+  },
+  {
+    "domainKey": "domain-b",
+    "code": "B.1",
+    "title": "Objective B1",
+    "description": "Placeholder objective for domain B.",
+    "isPlaceholder": true,
+    "order": 0
+  }
+]

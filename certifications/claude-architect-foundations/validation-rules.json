@@ -1,0 +1,34 @@
+[
+  {
+    "gate": "Schema",
+    "rule": "Valid structured output; required fields present; option IDs unique."
+  },
+  {
+    "gate": "Scope",
+    "rule": "Maps to exactly one primary certification objective and does not violate exclusions.json's excludedTopics or scopeGuardrail."
+  },
+  {
+    "gate": "Answerability",
+    "rule": "Sufficient information is present; no dependence on hidden assumptions."
+  },
+  {
+    "gate": "Correctness",
+    "rule": "Reviewer independently reaches same answer(s) or item is quarantined."
+  },
+  {
+    "gate": "Distractors",
+    "rule": "Plausible but demonstrably inferior/incorrect; no joke or giveaway options."
+  },
+  {
+    "gate": "Ambiguity",
+    "rule": "Exactly one best answer for single-choice; explicit count/selection rule for multiple response."
+  },
+  {
+    "gate": "Duplication",
+    "rule": "No exact duplicate; near-duplicate threshold configurable."
+  },
+  {
+    "gate": "Safety/Integrity",
+    "rule": "No claim that generated content is an official or leaked exam item."
+  }
+]

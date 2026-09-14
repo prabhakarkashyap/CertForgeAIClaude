@@ -1,0 +1,12 @@
+{
+  "allocationStrategy": "largest_remainder",
+  "officialSimulation": {
+    "questionCount": 60,
+    "durationMinutes": 120,
+    "allowVariance": false
+  },
+  "practice": {
+    "allowVariance": true,
+    "questionCountOptions": [10, 20, 30, 60]
+  }
+}

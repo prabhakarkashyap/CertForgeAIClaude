@@ -1,0 +1,52 @@
+[
+  {
+    "key": "agentic-architecture-orchestration",
+    "name": "Agentic Architecture & Orchestration",
+    "description": "Designing and reasoning about agent architectures and multi-step orchestration using Claude.",
+    "weightPercent": 27,
+    "targetQuestionCount": 16,
+    "minQuestionCount": 15,
+    "maxQuestionCount": 17,
+    "order": 0
+  },
+  {
+    "key": "tool-design-mcp-integration",
+    "name": "Tool Design & MCP Integration",
+    "description": "Designing tools and integrating them with Claude via the Model Context Protocol (MCP).",
+    "weightPercent": 18,
+    "targetQuestionCount": 11,
+    "minQuestionCount": 10,
+    "maxQuestionCount": 12,
+    "order": 1
+  },
+  {
+    "key": "claude-code-configuration-workflows",
+    "name": "Claude Code Configuration & Workflows",
+    "description": "Configuring Claude Code and building effective agentic workflows around it.",
+    "weightPercent": 20,
+    "targetQuestionCount": 12,
+    "minQuestionCount": 11,
+    "maxQuestionCount": 13,
+    "order": 2
+  },
+  {
+    "key": "prompt-engineering-structured-output",
+    "name": "Prompt Engineering & Structured Output",
+    "description": "Prompt design techniques and producing reliable structured output from Claude.",
+    "weightPercent": 20,
+    "targetQuestionCount": 12,
+    "minQuestionCount": 11,
+    "maxQuestionCount": 13,
+    "order": 3
+  },
+  {
+    "key": "context-management-reliability",
+    "name": "Context Management & Reliability",
+    "description": "Managing context windows and building reliable, resilient Claude-based solutions.",
+    "weightPercent": 15,
+    "targetQuestionCount": 9,
+    "minQuestionCount": 8,
+    "maxQuestionCount": 10,
+    "order": 4
+  }
+]

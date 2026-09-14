@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+*.pem
+*.key
+app-secret.key
+
+# Build outputs
+.next/
+out/
+dist/
+build/
+*.tsbuildinfo
+
+# Prisma
+packages/database/generated/
+
+# Testing
+coverage/
+playwright-report/
+test-results/
+.vitest-cache/
+
+# Logs
+*.log
+npm-debug.log*
+logs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Local data directory (SQLite fallback / uploaded packs / generated PDFs)
+.data/

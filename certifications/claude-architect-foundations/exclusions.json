@@ -1,0 +1,12 @@
+{
+  "scopeGuardrail": "For CCA-F, generic AWS/Azure/GCP/Kubernetes/networking questions must be rejected unless the infrastructure concept is directly necessary to a Claude solution architecture decision. The primary tested concept must remain within the activated CCA-F objective set. Generation and validation prompts must both enforce this rule.",
+  "excludedTopics": [
+    "Generic AWS service configuration not tied to a Claude solution architecture decision",
+    "Generic Azure service configuration not tied to a Claude solution architecture decision",
+    "Generic GCP service configuration not tied to a Claude solution architecture decision",
+    "Generic Kubernetes administration not tied to a Claude solution architecture decision",
+    "General networking topics (routing, DNS, load balancer administration) not tied to a Claude solution architecture decision",
+    "Certification content for any exam other than Claude Certified Architect – Foundations"
+  ],
+  "notes": "This exclusion list enforces PRD section 5.3 (Scope Guardrail). It is deliberately conservative; the independent reviewer stage must still confirm that any infrastructure concept referenced in a generated question is directly necessary to the tested Claude architecture decision."
+}

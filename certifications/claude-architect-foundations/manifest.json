@@ -1,0 +1,14 @@
+{
+  "slug": "claude-architect-foundations",
+  "name": "Claude Certified Architect – Foundations",
+  "version": "1.0.0",
+  "status": "active",
+  "examName": "Claude Certified Architect – Foundations",
+  "totalQuestions": 60,
+  "durationMinutes": 120,
+  "passingScore": 720,
+  "scoreScale": { "min": 100, "max": 1000 },
+  "questionTypes": ["single_choice", "multiple_response"],
+  "delivery": "Online proctored or Pearson test center",
+  "sourceDisclaimer": "CertForge AI provides independently generated practice material aligned to publicly available certification objectives. It is not affiliated with, endorsed by, or an official product of Anthropic or Pearson VUE. Claude and related marks belong to their respective owners. Practice scores and questions are not official exam scores or exam items. Baseline sourced from the Anthropic Partner Academy certification page, accessed 14 September 2026; see references.json."
+}
