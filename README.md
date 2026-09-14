@@ -50,32 +50,59 @@ scoring, analytics, and exports (Phases 2-9 - see
 
 ## Getting started
 
+Install dependencies from the repository root:
+
 ```bash
-# 1. Install dependencies (from the repository root)
 npm install
+```
 
-# 2. Create your environment file
+Create your environment file:
+
+```bash
 cp .env.example .env
-# Edit .env: set DATABASE_URL to a PostgreSQL database you've created, e.g.
-#   postgresql://certforge:certforge@localhost:5432/certforge_ai?schema=public
-# (You can also create the database and set this up interactively later
-# from the setup wizard's Database step - the wizard writes DATABASE_URL
-# into .env for you and tells you to restart.)
+```
 
-# 3. Generate the Prisma client
+Edit `.env` and set `DATABASE_URL` to a PostgreSQL database you've created, e.g.
+`postgresql://certforge:certforge@localhost:5432/certforge_ai?schema=public`.
+(You can also do this interactively later from the setup wizard's Database
+step - it writes `DATABASE_URL` into `.env` for you and tells you to restart.)
+
+**Important:** `prisma migrate dev` needs to both create the target database
+(if it doesn't already exist) and a temporary "shadow" database it uses to
+compute schema diffs - this means the Postgres role in your `DATABASE_URL`
+must have `CREATEDB` privilege, not just access to one existing database. If
+you're using your own local Postgres install, either use a superuser role
+(e.g. the default `postgres` role) or grant it explicitly:
+
+```sql
+ALTER ROLE certforge CREATEDB;
+```
+
+Generate the Prisma client:
+
+```bash
 npm run db:generate
+```
 
-# 4. Create the initial migration (first run only) and apply it
+Create the initial migration (first run only) and apply it - this is the
+FIRST migration for this schema; it does not exist yet in the repository,
+and this command generates it from `schema.prisma`:
+
+```bash
 npm run db:migrate --workspace=packages/database
-# This is the FIRST migration for this schema - it does not exist yet in
-# the repository. Running this command generates it from schema.prisma.
+```
 
-# 5. (Optional) seed the bundled certification pack into the database
+Seed the bundled certification pack into the database:
+
+```bash
 npm run db:seed --workspace=packages/database
+```
 
-# 6. Start the development server
+Start the development server, then open http://127.0.0.1:3000 and complete
+the setup wizard:
+
+```bash
 npm run dev
-# Open http://127.0.0.1:3000 and complete the setup wizard.
 ```
 
 ## Running tests
