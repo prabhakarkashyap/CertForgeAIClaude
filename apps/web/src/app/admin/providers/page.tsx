@@ -1,14 +1,14 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-
-type ProviderKind = 'anthropic' | 'openai' | 'google' | 'openrouter' | 'custom';
+import { ModelSelect } from '../../../components/providers/ModelSelect.js';
+import { PROVIDER_MODEL_OPTIONS, type ProviderKind } from '../../../lib/provider-models.js';
 
 const PROVIDER_OPTIONS: Array<{ value: ProviderKind; label: string; defaultModel: string; needsBaseUrl?: boolean }> = [
-  { value: 'anthropic', label: 'Anthropic', defaultModel: 'claude-sonnet-4-5' },
-  { value: 'openai', label: 'OpenAI', defaultModel: 'gpt-4o-mini' },
-  { value: 'google', label: 'Google Gemini', defaultModel: 'gemini-1.5-pro' },
-  { value: 'openrouter', label: 'OpenRouter', defaultModel: 'anthropic/claude-3.5-sonnet' },
+  { value: 'anthropic', label: 'Anthropic', defaultModel: PROVIDER_MODEL_OPTIONS.anthropic[0]!.value },
+  { value: 'openai', label: 'OpenAI', defaultModel: PROVIDER_MODEL_OPTIONS.openai[0]!.value },
+  { value: 'google', label: 'Google Gemini', defaultModel: PROVIDER_MODEL_OPTIONS.google[0]!.value },
+  { value: 'openrouter', label: 'OpenRouter', defaultModel: PROVIDER_MODEL_OPTIONS.openrouter[0]!.value },
   { value: 'custom', label: 'Custom (OpenAI-compatible)', defaultModel: '', needsBaseUrl: true },
 ];
 
@@ -134,7 +134,7 @@ export default function AdminProvidersPage() {
           </div>
           <div>
             <label className="label" htmlFor="model">Model</label>
-            <input id="model" className="input" value={model} onChange={(e) => setModel(e.target.value)} />
+            <ModelSelect provider={provider} value={model} onChange={setModel} />
           </div>
           {selected.needsBaseUrl && (
             <div>
