@@ -28,14 +28,13 @@ export const PROVIDER_MODEL_OPTIONS: Record<Exclude<ProviderKind, 'custom'>, Mod
     { value: 'o3', label: 'o3' },
   ],
   google: [
-    { value: 'gemini-2.5-pro', label: 'Gemini 2.5 Pro' },
-    { value: 'gemini-2.5-flash', label: 'Gemini 2.5 Flash' },
-    { value: 'gemini-2.0-flash', label: 'Gemini 2.0 Flash' },
+    { value: 'gemini-3.1-pro-preview', label: 'Gemini 3.1 Pro (preview)' },
+    { value: 'gemini-3.1-flash-preview', label: 'Gemini 3.1 Flash (preview)' },
   ],
   openrouter: [
     { value: 'anthropic/claude-sonnet-5', label: 'Anthropic: Claude Sonnet 5' },
     { value: 'openai/gpt-5', label: 'OpenAI: GPT-5' },
-    { value: 'google/gemini-2.5-pro', label: 'Google: Gemini 2.5 Pro' },
+    { value: 'google/gemini-3.1-pro-preview', label: 'Google: Gemini 3.1 Pro (preview)' },
     { value: 'meta-llama/llama-3.3-70b-instruct', label: 'Meta: Llama 3.3 70B Instruct' },
   ],
 };
